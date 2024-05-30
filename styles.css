@@ -1,0 +1,40 @@
+.header, .top {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    .logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    ul {
+        display: flex;
+        gap: 8px;
+        color: #E5E7Eb;
+        font-size: 18px;
+        list-style-type: none;
+    }
+}
+
+
+.top {
+    .left {
+        h2 {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #f9faf8;
+        }
+        p {
+            color: #E5E7Eb;
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
